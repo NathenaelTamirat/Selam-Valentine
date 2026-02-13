@@ -53,28 +53,12 @@ export function ValentineCard() {
         {stage === "said-no" && (
           <div className="mb-6 animate-bounce-in">
             <div className="rounded-2xl bg-[rgba(255,255,255,0.15)] backdrop-blur-sm p-4 text-center border border-[rgba(255,255,255,0.2)]">
-              {/* 
-                =====================================================
-                REPLACE THIS ENTIRE DIV WITH YOUR CAT SHAKING HEAD GIF:
-                
-                <img 
-                  src="/images/cat-no.gif" 
-                  alt="Cat shaking head saying no" 
-                  className="w-48 h-48 mx-auto rounded-xl object-cover"
-                />
-                =====================================================
-              */}
-              <div className="w-48 h-48 mx-auto rounded-xl bg-[rgba(255,255,255,0.1)] flex items-center justify-center border-2 border-dashed border-[rgba(255,255,255,0.3)]">
-                <div className="text-center px-3">
-                  <p className="text-[hsl(0,0%,100%)] text-3xl mb-2">{"🙀"}</p>
-                  <p className="text-[hsl(0,0%,90%)] text-xs font-medium leading-relaxed">
-                    {"Place your cat shaking head GIF here"}
-                  </p>
-                  <p className="text-[hsl(0,0%,70%)] text-[10px] mt-1">
-                    {"/public/images/cat-no.gif"}
-                  </p>
-                </div>
-              </div>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cat-no-V2lvvkGPcVgglk3u2kTh3gmN0USkKk.gif"
+                alt="Cute cat with big sad eyes"
+                className="w-48 h-48 mx-auto rounded-xl object-cover"
+              />
               <p className="text-[hsl(0,0%,100%)] mt-3 font-medium text-sm">
                 {"Nuh uh... that's not an option!"}
               </p>
@@ -203,28 +187,12 @@ export function ValentineCard() {
                   3. Remove the placeholder div
                   ========================================== */}
               <div className="mb-6">
-                {/* 
-                  =====================================================
-                  REPLACE THIS ENTIRE DIV WITH YOUR BALLOON / CELEBRATION GIF:
-                  
-                  <img 
-                    src="/images/balloons.gif" 
-                    alt="Celebration balloons popping" 
-                    className="w-52 h-52 mx-auto rounded-xl object-cover"
-                  />
-                  =====================================================
-                */}
-                <div className="w-52 h-52 mx-auto rounded-xl bg-[hsl(350,60%,96%)] flex items-center justify-center border-2 border-dashed border-[hsl(346,77%,80%)]">
-                  <div className="text-center px-3">
-                    <p className="text-4xl mb-2">{"🎈"}</p>
-                    <p className="text-[hsl(350,30%,40%)] text-xs font-medium leading-relaxed">
-                      {"Place your balloon celebration GIF here"}
-                    </p>
-                    <p className="text-[hsl(350,10%,60%)] text-[10px] mt-1">
-                      {"/public/images/balloons.gif"}
-                    </p>
-                  </div>
-                </div>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ballons-J0SVen8Wq0SnYhoGc4JLQYfpLdwJG0.gif"
+                  alt="Minions celebrating - Woohoo Yeah!"
+                  className="w-52 h-52 mx-auto rounded-xl object-cover"
+                />
               </div>
 
               <h1 className="text-3xl md:text-4xl font-bold text-[hsl(346,77%,50%)] mb-3">

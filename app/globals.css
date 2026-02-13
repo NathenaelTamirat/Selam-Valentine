@@ -72,16 +72,11 @@ body {
 }
 
 @keyframes pulse-glow {
-  0%,
-  100% {
-    box-shadow:
-      0 0 20px rgba(224, 36, 94, 0.3),
-      0 0 40px rgba(224, 36, 94, 0.1);
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(224, 36, 94, 0.3), 0 0 40px rgba(224, 36, 94, 0.1);
   }
   50% {
-    box-shadow:
-      0 0 30px rgba(224, 36, 94, 0.5),
-      0 0 60px rgba(224, 36, 94, 0.2);
+    box-shadow: 0 0 30px rgba(224, 36, 94, 0.5), 0 0 60px rgba(224, 36, 94, 0.2);
   }
 }
 
@@ -97,28 +92,15 @@ body {
 }
 
 @keyframes heartbeat {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  25% {
-    transform: scale(1.1);
-  }
-  50% {
-    transform: scale(1);
-  }
-  75% {
-    transform: scale(1.05);
-  }
+  0%, 100% { transform: scale(1); }
+  25% { transform: scale(1.1); }
+  50% { transform: scale(1); }
+  75% { transform: scale(1.05); }
 }
 
 @keyframes shimmer {
-  0% {
-    background-position: -200% center;
-  }
-  100% {
-    background-position: 200% center;
-  }
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
 }
 
 @keyframes confetti-fall {
@@ -147,15 +129,9 @@ body {
 }
 
 @keyframes slide-bg {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .animate-float-up {

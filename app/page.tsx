@@ -1,8 +1,8 @@
-"use client";
+"use client"
 
-import { FloatingHearts } from "@/components/floating-hearts";
-import { BackgroundSlideshow } from "@/components/background-slideshow";
-import { ValentineCard } from "@/components/valentine-card";
+import { FloatingHearts } from "@/components/floating-hearts"
+import { BackgroundSlideshow } from "@/components/background-slideshow"
+import { ValentineCard } from "@/components/valentine-card"
 
 export default function Page() {
   return (
@@ -16,5 +16,5 @@ export default function Page() {
       {/* Main Valentine card */}
       <ValentineCard />
     </main>
-  );
+  )
 }
